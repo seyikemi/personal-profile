@@ -1,0 +1,154 @@
+body {
+	margin: 0px;
+	padding:0px;
+}
+.backg{
+	background:linear-gradient(to bottom, #F44336 -3%, #ff3399 100%);
+	height: 650px;
+}
+.nav {
+	background-color: transparent;
+	color:white;
+	top:40px;
+	position:static;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right;
+	padding-right: 70px;
+	padding-left: 0px;
+	font-size: 17px;
+	font-weight: bolder;
+}
+.lic{
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+
+}
+.cont{
+	
+
+	display: inline;
+}
+.me{
+	
+	height: 5%;
+
+
+
+}
+.pad4{
+	margin-bottom: 0px;
+}
+.lis{
+	display: inline;
+	margin:20px;
+	padding-top: 20px;
+
+}
+.linkk{
+	text-decoration: none;
+	color:white;
+}
+.linkk:hover {
+	border-bottom:2px solid pink;
+	margin:5px;
+}
+/*end of header*/
+.image{
+	background-image: url(images/2.jpg);
+	background-repeat: no-repeat;
+	width:100%;
+	height:550px;
+	background-size: cover;
+}
+.heh{
+}
+.content{
+	
+	text-align: center;
+
+	color: white;
+	z-index: 10000;
+
+}
+.butt{
+	background-color:transparent;
+	color: white;
+	padding-left: 54px;
+	padding-right: 54px;
+	margin-top:50px; 
+	border-radius: 0%;
+	border: 1px solid white;
+
+}
+.pp{
+	padding: 0px;
+	margin: 0px;
+}
+.about{
+	border-bottom:1px solid blue;
+	text-align: center;
+	display: inline-flex;
+	padding-top: 40px;
+}
+.center{
+	text-align: center;
+}
+.text{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.read{
+	text-decoration: none;
+	color: inherit;
+}
+.black{
+	background-color: #557d9c;
+	color: white;
+}
+.work{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: -10%;
+	background-color: white;
+	height:450px;
+	box-shadow: 1px 2px  #88888899;
+	text-align: center;
+}
+
+.recent{
+	padding-top: 30px;
+	color:#ff3399;
+	text-align: center;
+}
+.logo{
+	
+	width:100%;
+}
+.log{
+	border-radius: 50%;
+	background-color: white;
+	border:1px solid #9C27B0 ;
+	width:100px;
+	padding :20px;
+}
+.skill{
+
+	
+	display: inline-grid;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
