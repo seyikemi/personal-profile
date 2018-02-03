@@ -138,6 +138,15 @@ body {
 	
 	display: inline-grid;
 }
+.formm{
+	margin:0 auto;
+
+}
+
+form > h3 {
+	margin:0px;
+	padding: 0;
+}
 
 
 .col-1 {width: 8.33%;}

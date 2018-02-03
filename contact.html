@@ -13,7 +13,7 @@
 		<header>
 			<div class = "nav">
 				<ul class = "lic">
-					<li class = "lis"><a href="#" class = "linkk"> Home</a></li>
+					<li class = "lis"><a href="personalprofile.html" class = "linkk"> Home</a></li>
 					<li class = "lis"><a href="#about" class = "linkk"> About Me</a> </li>
 					<li class = "lis"><a href="" class = "linkk"> Portfolio</a></li>
 					<li class = "lis"><a href="" class = "linkk"> Contact Me</a></li>
@@ -21,13 +21,76 @@
 			</div>
 			
 		</header>
-	<!-- image  -->
-		<div>
-			<div class = "workk">
-				
 
-			</div>
-				<!-- my image -->
+		<div class = "col-2">
+			
+		</div>
+
+	<!-- image  -->
+
+		<div class = "formm col-6">
+			<form>
+				<h3> Contact me</h3>
+	
+				
+     			<div  class = "contact">
+
+         			<input type="hidden" name="password" value="<?= $password; ?>" />
+  				</div>
+
+
+    			<div class = "formm" >
+      
+          			<label class="title"> <i class="fa fa-user"></i>Your name</label>
+         				 <br>
+        			<input type="text" class="form-control" required="">
+      
+   				</div>
+
+   				<div class="">
+   
+			        <label class="title"><i class="fa fa-envelope"></i>Your email</label>
+			         <br>
+
+	        		<input type="text" class="form-control" required="">
+      
+   				 </div>
+
+    			<div class="">
+				       <label class="title"><i class="fa fa-tags"></i>Subject</label>
+				       <br>
+
+	        			<input type="text"  class="form-control" required="">
+       
+    			</div>
+
+		    <div>
+			     <label class="title"><i class="fa fa-pencil"></i>Your message</label>
+			     <br>
+	    
+	        	<textarea type="text"  class="textt" placeholder="write your message" required="" cols="50px" rows=" 20px"></textarea>
+	       
+		    </div>
+		    <br>
+
+		    <div>
+		        <button type= "submit" class="btn">Send<i class="fa fa-paper-plane-o if sendmessage" ></i></button>
+		    </div>
+
+
+
+  		</div>
+	</div>
+</form>
+				</legend>
+				
+				
+			</form>
+
+		</div>
+		<div class = "col-2">
+			
+		</div>	<!-- my image -->
 				
 				
 		
