@@ -1,21 +1,26 @@
 body {
 	margin: 0px;
 	padding:0px;
+	font-family: "Caveat";
 }
 .backg{
-	background:linear-gradient(to bottom, #F44336 -3%, #ff3399 100%);
+	background: linear-gradient(to bottom, #f4036f9c -3%, #030af4 100%);
 	height: 650px;
 }
+.backgr{
+	background-color: slateblue;
+	
+}
+/*NAVBAR*/
 .nav {
 	background-color: transparent;
 	color:white;
-	top:40px;
-	position:static;
+	
+	position:relative;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	float: right;
-	padding-right: 70px;
-	padding-left: 0px;
+	
 	font-size: 17px;
 	font-weight: bolder;
 }
@@ -23,19 +28,39 @@ body {
 	display: inline;
 	list-style: none;
 	text-decoration: none;
+	 overflow: hidden;
 
 }
-.cont{
+.linkk{
+	text-decoration: none;
+	color:white;
+	display: block;
+	float:left;
+	 text-align: center;
+    padding: 14px 16px;
+}
+.linkk:hover {
+	border-bottom:2px solid pink;
 	
-
-	display: inline;
 }
+
+/*end of NAVBAR*/
+
 .me{
 	
-	height: 5%;
+	height: 6%;
+	margin-left: 40px;
 
 
+}
+@media only screen and (max-width: 500px){
+	.me {
+		display: none;
 
+	}
+	.content{
+		text-align: center;
+	}
 }
 .pad4{
 	margin-bottom: 0px;
@@ -46,14 +71,11 @@ body {
 	padding-top: 20px;
 
 }
-.linkk{
-	text-decoration: none;
-	color:white;
+.correct{
+	display: inline-flex!important;
 }
-.linkk:hover {
-	border-bottom:2px solid pink;
-	margin:5px;
-}
+
+
 /*end of header*/
 .image{
 	background-image: url(images/2.jpg);
@@ -62,11 +84,13 @@ body {
 	height:550px;
 	background-size: cover;
 }
-.heh{
-}
+
 .content{
 	
 	text-align: center;
+	
+	margin-top: 14%;
+
 
 	color: white;
 	z-index: 10000;
@@ -82,6 +106,11 @@ body {
 	border: 1px solid white;
 
 }
+.butt:hover {
+	background-color: #e060b1;
+	color: white;
+	border-color: white;
+}
 .pp{
 	padding: 0px;
 	margin: 0px;
@@ -92,9 +121,7 @@ body {
 	display: inline-flex;
 	padding-top: 40px;
 }
-.center{
-	text-align: center;
-}
+
 .text{
 	padding-left: 100px;
 	padding-right: 100px;
@@ -139,16 +166,35 @@ body {
 	display: inline-grid;
 }
 .formm{
-	margin:0 auto;
+
 
 }
+
+/*home page personal*/
+.personal{
+	background-color:#607d8b9c;
+}
+.recent {
+
+}
+div > ul {
+	color: black;
+	text-align: center;
+}
+/*personal ends*/
+
+
+
+
 
 form > h3 {
 	margin:0px;
 	padding: 0;
 }
-
-
+@font-face {
+font-family: Caveat;
+src: url('../fonts/caveat.ttf') format('truetype');
+}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -161,3 +207,10 @@ form > h3 {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+
+@media screen (min-width: 300px){
+.col-3{
+	width:10%;
+}
+}
